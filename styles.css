@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(216, 208, 208, 0.212);
+}
+
+p{
+    line-height: 190%;
+}
+
+a{
+    text-decoration: none;
+    color: #423F3E;
+}
+
+
+/*=================================================================== MENU =================================================================*/
+#menu{
+    background-color: #FFF600;
+    height: 100px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: #121013;
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color:#FFC107 ;
+}
+
+/*=================== HEADER ================*/
+
+#header{
+    padding: 60px 0 40px 0;
+    background-color: #333333;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+#header p{
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+/*=================== BANNER ================*/
+
+#banner{
+    height: 450px;
+}
+
+#banner img{
+    width: 100%;
+    height: 450px;
+}
+
+/*=================== PAGE ================*/
+
+#page{
+    min-height: 400px;
+    padding: 20px;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #f7f306;
+}
+
+/* CONTENT */
+
+#content{
+    float: left;
+    width: 70%;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    float: right;
+    width: 25%;
+}
+
+
+
+/* LISTS */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-bottom: 1px solid #4e494965;
+    padding: 14px;
+
+}
+
+ul.style1{
+    list-style-type: circle;
+}
+
+/*=================== SALES-PAGE ================*/
+
+#sales-page{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#sales-page img{
+    width: 400px;
+    padding-top: 10px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#sales-page img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+
+#sales-page h2{
+    color:#f7f306 ;
+    text-transform: uppercase;
+}
+
+#sales-page p{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+/*=========================== FORM ==========================*/
+
+form{
+    text-align: center;
+}
+
+
+
+/*=================== FOOTER ================*/
+
+#footer{
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#footer img{
+    width: 550px;
+}
+
+#footer h2{
+    color: gold;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#footer p{
+    color: #444941;
+    font-size: 18px;
+}
+
+/*=================== COPYRIGHT ================*/
+
+#copyrights{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: #FFF600;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyrights p{
+    font-size: 12px;
+    color: #121013;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/*====================================================== MEDIA QUARIES ============================================================*/
+
+@media screen and (min-width: 1900px) {
+    #banner img{
+        height: 600px;
+    }
+
+    #page {
+        margin-top: 150px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
